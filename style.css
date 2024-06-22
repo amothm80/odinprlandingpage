@@ -1,0 +1,19 @@
+body{
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: Roboto, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.header, .headsection, .footer{
+    background-color: #1f2937;
+}
+
+.headsection .info .title{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
