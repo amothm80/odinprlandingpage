@@ -8,12 +8,95 @@ body{
     margin: 0;
 }
 
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+
+}
+
+
+/*header*/
 .header, .headsection, .footer{
     background-color: #1f2937;
+    display: flex;
+}
+
+.header{
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 0 10% 0 10% ;
+}
+
+.header .logo{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.header .links{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px
+}
+
+
+/*head section*/
+
+.headsection{
+    display: flex;
+    flex: 1 1 auto;
+    align-items: stretch;
+    padding: 10% 10% 10% 10% ;
+    justify-content: space-between;
+    gap: 10px;
+
+}
+
+.headsection .info{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0;
+
+}
+
+.headsection .image{
+    display: flex;
+    flex: 1 1 0;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+
+    color: white;
+    min-height: 10rem;
+}
+
+
+.infosection{
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.quotesection{
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.footsection{
+    display: flex;
+    flex: 1 1 auto;
 }
 
 .headsection .info .title{
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
+}
+
+
+
+.text  {
+    font-size: 18px;
+    color: #e5e7eb;
 }
