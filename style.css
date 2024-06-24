@@ -61,7 +61,7 @@ button{
     display: flex;
     flex: 1 1 auto;
     align-items: stretch;
-    padding: 10% 10% ;
+    padding: 100px 0;
     justify-content: space-between;
     gap: 10px;
 
@@ -72,7 +72,7 @@ button{
     flex-direction: column;
     justify-content: space-between;
     flex: 1 1 0;
-
+    gap:10px;
 }
 
 .headsection .image{
@@ -88,6 +88,12 @@ button{
 
 .headsection .button button{
     border-color: #3882f6;    
+}
+
+
+.headsection .info .title{
+    font-size: 48px;
+    color: #f9faf8;
 }
 
 /*info section*/
@@ -138,27 +144,75 @@ button{
 .infosection .info .imagetext .text{
     text-align: center;
     color: #1f2937;
+    font-size: 11px;;
+    padding: 0 30px;
 }
 
 
 /*quote section*/
 .quotesection{
     width: 900px;
+    /*background-color: #e5e7eb;*/
+    border-image: conic-gradient(#e5e7eb 0 0) fill 0//0 100vw;
+    flex-direction: column;
     display: flex;
     flex: 1 1 auto;
+    padding: 100px 0;
+    gap: 10px;
 }
 
+.quotesection .quote q{
+    display: flex;
+    flex: 1 1 auto;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1f2937;
+}
+
+
+.quotesection .quotee{
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: flex-end;
+    font-weight: bold;
+}
+
+/*foot section*/
 .footsection{
     display: flex;
     flex: 1 1 auto;
+    padding: 100px;
+    gap: 20px;
 }
 
-.headsection .info .title{
-    font-size: 48px;
+.footsection .container{
+    display: flex;
+    background-color: #3882f6;
+    padding: 30px 60px;
+    gap: 20px;
+    border-radius: 6px;
+}
+
+.footsection .container .hype .title{
+    font-weight: bolder;
     color: #f9faf8;
+    font-size: 18px;
+}
+.footsection .container .hype .text{
+    color: #f9faf8;
+    font-size: 15px; 
 }
 
+/*footer*/
 
+.footer{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    color: #f9faf8;
+    font-size: 12px;
+}
 
 .text  {
     font-size: 18px;
